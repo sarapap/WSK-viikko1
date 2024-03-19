@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: rgb(207, 39, 67);
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px;
+}
+
+img {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+p {
+  color: red;
+}
+
+table th,
+table td {
+  padding: 8px;
+  border: 1px solid black;
+}
+
+table tr:nth-child(even) {
+  background-color: lightblue;
+}
+
+ul {
+  list-style-type: circle;
+}
